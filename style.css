@@ -65,7 +65,6 @@ body {
 
 .skills i {
     margin: 0 .3rem;
-    opacity: 0;
     transition: .4s ease;
 }
 
