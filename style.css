@@ -110,7 +110,3 @@ body {
     border-color: #040404;
     color: #040404;
 }
-
-.container:hover .skills i {
-    opacity: 1;
-}

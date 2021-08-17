@@ -1,5 +1,3 @@
-# My profile card
+# [My profile card](https://lucasudar.github.io/)
 
-![Profile](./img/how_it_works.gif "Profile")
-
-## [Link](https://lucasudar.github.io/)
+![Demo](./img/how_it_works.gif "Demo")
