@@ -60,28 +60,26 @@ body {
 }
 
 .skills {
+    display: flex;
     font-size: 1.5rem;
 }
 
-.skills i {
-    margin: 0 .3rem;
+.skills__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.skills__icon {
+    display: block;
+    height: 25px;
+}
+
+.skills a {
+    margin: 0 .2rem;
     transition: .4s ease;
-}
-
-.fa-html5 {
-    color: #e34c26;
-}
-
-.fa-css3-alt {
-    color: #0098ff;
-}
-
-.fa-js {
-    color: #f0db4f;
-}
-
-.fa-vuejs {
-    color: #22a36d;
 }
 
 .btn a {
