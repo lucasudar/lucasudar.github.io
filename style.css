@@ -61,10 +61,15 @@ body {
 
 .skills {
     font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.2rem;
 }
 
 .skills i {
-    margin: 0 .3rem;
+    margin: 0.3rem;
     transition: .4s ease;
 }
 
@@ -82,6 +87,37 @@ body {
 
 .fa-vuejs {
     color: #22a36d;
+}
+.fa-docker {
+    color: #0098ff;
+}
+
+.fa-node-js {
+    color: #81aa6c;
+}
+
+.fa-aws {
+    color: #da8d32;
+}
+
+.fa-git-alt {
+    color: #d85a3e;
+}
+
+.fa-jira {
+    color: #0098ff;
+}
+
+.fa-python {
+    color: #0098ff;
+}
+
+.fa-java {
+    color: #ec9b3f;
+}
+
+.fa-app-store-ios {
+    color: #4ba5ef;
 }
 
 .btn a {
@@ -109,4 +145,8 @@ body {
 .container:hover .btn a {
     border-color: #040404;
     color: #040404;
+}
+
+.container:hover .fa-python {
+    color: #f9d261;
 }
